@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        background-color: royalblue;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container card col-md-3 my-4">
+      <div class="card-body">
+        <h1 class="text-uppercase text-primary text-center font-weight-bold">
+          LOGIN
+        </h1>
+        <form action="#" autocomplete="off" id="form" novalidate>
+          <div class="form-group">
+            <label for="username">USERNAME</label>
+            <input
+              type="text"
+              class="form-control"
+              id="username"
+              name="username"
+              placeholder="ENTER USERNAME"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">PASSWORD</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              name="password"
+              placeholder="ENTER PASSWORD"
+              required
+            />
+          </div>
+          <span id="errorBlock" class="text-danger"></span>
+          <div class="form-group">
+            <button class="btn btn-primary btn-block my-4">LOGIN</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="./apps2.js"></script>
+  </body>
+</html>
